@@ -1,0 +1,74 @@
+/*
+Theme name : cooking
+Auteur : Pierre Mercier
+*/
+
+body {
+	font-family: 'arial', 'sans-serif';
+	color: #333;
+	margin: 0;
+}
+
+main {
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+h1 {
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+main#accueil {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+footer {
+	margin-top: 20px;
+	background-color: #eee;
+	padding: 20px;
+	width:1800px;
+}
+
+div[class^="menu-"] {
+	background-color: #eee;
+	padding: 20px;
+}
+
+.menu .menu-item {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.menu .menu-item a, main article a {
+	text-decoration: none;
+	color: #333;
+}
+
+.menu .menu-item a:hover, main article a:hover {
+	text-decoration: underline;
+}
+
+
+.menu, footer p {
+	padding: 0;
+	width: 1800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+article {
+	width: 300px;
+	margin-bottom: 40px;
+}
+
+
