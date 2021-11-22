@@ -27,4 +27,15 @@ Dans le menu latéral de Wordpress, allez dans Outils puis sur Importer. Tout en
 Il se peut que les médias type images ne s'importent pas correctement. Pour remédier à cela, dans le menu matéral de Wordpress, allez dans Medias puis cliquez sur Ajouter. Sélectionnez le dossier qui se trouve dans le chemin suivant : cooking\wp-content\themes\cooking\ressources afin d'importer les images.
 10. Tout en haut du tableau de bord de Wordpress, cliquez sur L'Atelier de Pitou à droite du logo de Wordpress. Vous êtes redirigé sur le site et pourrez accéder ainsi aux dernières recettes ! 
 
+Plugins utilisés :
+
+- Advanced Custom Fields --> Pour créer les champs personnalisés pour le CPT recettes (étapes, temps de cuisson, liste des ingrédients...)
+Le CPT recettes quand à lui est déclaré dans le fichier functions.php 
+
+Axes d'amélioration :
+
+- Améliorer le design en y intégrant des effets dynamiques avec du JavaScript, un fichier style.css plus complet
+- Intégrer des vidéos expliquant les différentes étapes de la recette
+- Mettre en place un espace forum ou la possibilité que les utilisateurs postent des commentaires pour avoir leur ressenti sur les recettes proposées 
+
  
